@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[http://www.fb.com]]>
+    </line>
+    <line>
+      <![CDATA[Facebook – log in or sign up]]>
+    </line>
+    <line>
+      <![CDATA[A1]]>
+    </line>
+    <line>
+      <![CDATA[admin]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="39542" started-at="2022-03-04T02:20:50Z" finished-at="2022-03-04T02:21:30Z">
+    <groups>
+    </groups>
+    <test name="Regression" duration-ms="39542" started-at="2022-03-04T02:20:50Z" finished-at="2022-03-04T02:21:30Z">
+      <class name="script.Test1">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:script.Test1@7a5ceedd]" name="openApp" is-config="true" duration-ms="34313" started-at="2022-03-04T02:20:50Z" finished-at="2022-03-04T02:21:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testA()[pri:0, instance:script.Test1@7a5ceedd]" name="testA" duration-ms="3989" started-at="2022-03-04T02:21:25Z" finished-at="2022-03-04T02:21:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[http://www.fb.com]]>
+            </line>
+            <line>
+              <![CDATA[Facebook – log in or sign up]]>
+            </line>
+            <line>
+              <![CDATA[A1]]>
+            </line>
+            <line>
+              <![CDATA[admin]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:script.Test1@7a5ceedd]" name="closeApp" is-config="true" duration-ms="991" started-at="2022-03-04T02:21:29Z" finished-at="2022-03-04T02:21:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- script.Test1 -->
+    </test> <!-- Regression -->
+  </suite> <!-- Suite -->
+</testng-results>
