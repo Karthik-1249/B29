@@ -11,11 +11,11 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class BaseTest {
+public class BaseTest implements IAutomation{
 
 	public WebDriver driver;
 	public WebDriverWait wait;
-	public static String config_path="./config.properties";
+	//public static String config_path="./config.properties";
 	
 	static 
 	{
@@ -43,7 +43,7 @@ public class BaseTest {
 		String value="";
 		Properties p=new Properties();
 		try {
-				p.load(new FileInputStream(config_path));
+				p.load(new FileInputStream(CONFIG_PATH));
 				value=p.getProperty(key);
 		}
 		catch (Exception e) {
