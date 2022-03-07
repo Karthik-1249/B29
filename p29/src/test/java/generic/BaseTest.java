@@ -15,37 +15,41 @@ public class BaseTest {
 
 	public WebDriver driver;
 	public WebDriverWait wait;
-	static {
+	public static String config_path="./config.properties";
+	
+	static 
+	{
 		WebDriverManager.chromedriver().setup();
 	}
-
 	@BeforeMethod
 	public void openApp() {
 		String url = getValue("URL");
 		long ito = Long.parseLong(getValue("ITO"));
 		long eto = Long.parseLong(getValue("ETO"));
-		driver = new ChromeDriver();
+		
+		driver=new ChromeDriver();
 		driver.get(url);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(ito));
-		wait = new WebDriverWait(driver, Duration.ofSeconds(eto));
+		wait=new WebDriverWait(driver, Duration.ofSeconds(eto));
 	}
-
+	
 	@AfterMethod
 	public void closeApp() {
 		driver.close();
 	}
-
-	public String getValue(String key) {
-		String value = "";
-		Properties p = new Properties();
+	
+	public static String getValue(String key) {
+		String value="";
+		Properties p=new Properties();
 		try {
-			p.load(new FileInputStream("./config.properties"));
-			value = p.getProperty(key);
-		} catch (Exception e) {
-
+				p.load(new FileInputStream(config_path));
+				value=p.getProperty(key);
 		}
-
+		catch (Exception e) {
+			
+		}
+		
 		return value;
 	}
 }

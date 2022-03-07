@@ -2,44 +2,26 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[https://demo.actitime.com/login.do]]>
-    </line>
-    <line>
-      <![CDATA[actiTIME - Login]]>
-    </line>
-    <line>
-      <![CDATA[A1]]>
-    </line>
-    <line>
-      <![CDATA[admin]]>
+      <![CDATA[Element is displayed]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="30577" started-at="2022-03-07T02:38:26Z" finished-at="2022-03-07T02:38:57Z">
+  <suite name="Default suite" duration-ms="35983" started-at="2022-03-07T03:36:36Z" finished-at="2022-03-07T03:37:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="30577" started-at="2022-03-07T02:38:26Z" finished-at="2022-03-07T02:38:57Z">
+    <test name="Default test" duration-ms="35983" started-at="2022-03-07T03:36:36Z" finished-at="2022-03-07T03:37:12Z">
       <class name="script.Test1">
-        <test-method status="PASS" signature="openApp()[pri:0, instance:script.Test1@5a5a729f]" name="openApp" is-config="true" duration-ms="24666" started-at="2022-03-07T02:38:27Z" finished-at="2022-03-07T02:38:51Z">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:script.Test1@7ee8290b]" name="openApp" is-config="true" duration-ms="29798" started-at="2022-03-07T03:36:36Z" finished-at="2022-03-07T03:37:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="PASS" signature="testA()[pri:0, instance:script.Test1@5a5a729f]" name="testA" duration-ms="4216" started-at="2022-03-07T02:38:51Z" finished-at="2022-03-07T02:38:55Z">
+        <test-method status="PASS" signature="testA()[pri:0, instance:script.Test1@7ee8290b]" name="testA" duration-ms="5745" started-at="2022-03-07T03:37:06Z" finished-at="2022-03-07T03:37:12Z">
           <reporter-output>
             <line>
-              <![CDATA[https://demo.actitime.com/login.do]]>
-            </line>
-            <line>
-              <![CDATA[actiTIME - Login]]>
-            </line>
-            <line>
-              <![CDATA[A1]]>
-            </line>
-            <line>
-              <![CDATA[admin]]>
+              <![CDATA[Element is displayed]]>
             </line>
           </reporter-output>
         </test-method> <!-- testA -->
-        <test-method status="PASS" signature="closeApp()[pri:0, instance:script.Test1@5a5a729f]" name="closeApp" is-config="true" duration-ms="1585" started-at="2022-03-07T02:38:55Z" finished-at="2022-03-07T02:38:57Z">
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:script.Test1@7ee8290b]" name="closeApp" is-config="true" duration-ms="359" started-at="2022-03-07T03:37:12Z" finished-at="2022-03-07T03:37:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
