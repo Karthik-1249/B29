@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import generic.BaseTest;
 import generic.Excel;
 import page.LoginPage;
-
+//DDT - Data Driven Testing
 public class InvalidLogin extends BaseTest
 {
 
